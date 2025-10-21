@@ -33,8 +33,7 @@ pip install -r requirements.txt
 ```
 
 ### 3. 下载模型
-将官方 [face_landmarker.task](https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task)  
-放入 `face_ext/models/` 文件夹。
+将官方 [face_landmarker.task](https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task)  放入 `face_ext/models/` 文件夹。
 
 ### 4. 启动
 ```bash
