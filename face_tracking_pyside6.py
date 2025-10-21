@@ -44,7 +44,7 @@ class CameraWindow(QMainWindow):
         self.move(50, 10)  # 设置窗口的位置
 
 
-        # self.setWindowTitle("VRCDU V3.5")
+        # self.setWindowTitle("face_tracking")
         # self.setGeometry(100, 100, 400, 600)
 
         # 禁用最大化按钮
@@ -473,7 +473,7 @@ class CustomTitleBar(QWidget):
         layout.setContentsMargins(0, 0, 0, 0)
         layout.setSpacing(0)
 
-        self.titleLabel = QLabel("VRCDU 0.5.1beta")
+        self.titleLabel = QLabel("face_tracking")
         self.titleLabel.setStyleSheet("color: white; font-size: 16px; padding: 5px;")
         layout.addWidget(self.titleLabel)
 
