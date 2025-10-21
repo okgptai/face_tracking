@@ -1,4 +1,4 @@
-# face_tracking 
+# FaceTracking-OSC 
 一个极简、开箱即用的 **实时面部捕捉 → OSC 转发** 小工具。  
 基于 **MediaPipe** 提取 468 点面部 landmark + 52 组 ARKit blendshape，通过 **PySide6** 构建无边框透明窗口，把数据实时推送到 VRChat、Unity、Blender 等支持 OSC 的接收端。
 
@@ -23,8 +23,8 @@
 ## 🚀 一键运行
 ### 1. 克隆
 ```bash
-git clone https://github.com/okgptai/face_tracking.git
-cd face_tracking
+git clone https://github.com/okgptai/FaceTracking-OSC.git
+cd FaceTracking-OSC
 ```
 
 ### 2. 依赖
