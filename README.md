@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 ### 4. 启动
 ```bash
-python main.py
+python face_tracking_pyside6.py
 ```
 
 ---
