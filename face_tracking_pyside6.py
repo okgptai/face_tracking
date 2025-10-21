@@ -16,7 +16,7 @@ from PySide6.QtCore import QTimer, Qt, QSize, QDateTime, QPoint, QRect
 # tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 
 # 初始化 MediaPipe FaceLandmarker
-model_path = path.abspath('face_ext/face_landmarker.task')
+model_path = path.abspath('face_ext/models/face_landmarker.task')
 base_options = python.BaseOptions(model_asset_path=model_path)
 options = vision.FaceLandmarkerOptions(
     base_options=base_options,
