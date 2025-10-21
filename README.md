@@ -107,5 +107,5 @@ MediaPipe、Wav2Lip、ResNet
 ---
 
 ## 📄 许可证
-MIT License
+Apache License 2.0
 ```
